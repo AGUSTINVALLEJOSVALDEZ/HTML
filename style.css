@@ -1,0 +1,76 @@
+
+
+h1 {
+    color:white
+
+}
+h2{
+    color:white;
+}
+header {
+    background-color: darkslategray;
+   padding: 20px;
+    text-align: center;
+
+
+}
+main {
+    background-color: lightgray;
+
+}
+footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+section {
+    background-color: rgba(135, 129, 146, 0.075);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: row;;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.contenedor-secciones {
+   display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    ;
+
+}
+
+.fila-aplicaciones {
+    display: flex;
+    flex-direction: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fila-aplicaciones div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.contiene-secciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
